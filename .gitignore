@@ -1,0 +1,10 @@
+venv/
+.env
+JP/
+PB/
+log.txt
+tweetsJP/
+tweetsJPTeste1/
+*.log
+__pycache__/
+*.pyc
