@@ -132,7 +132,7 @@ async def fetch_and_save_tweets(start_date, end_date, keyword, parameters, outpu
 async def main():
     await login_with_cookies()
 
-    csv_file = "inputTeste.csv"  # Nome do arquivo CSV de entrada
+    csv_file = "input.csv"  # Nome do arquivo CSV de entrada
 
     # Definir os parâmetros de busca
     parameters = "lang:pt"
