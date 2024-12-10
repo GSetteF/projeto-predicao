@@ -14,7 +14,7 @@ logging.basicConfig(
     level=logging.INFO,  # Nível mínimo de log
     format='%(asctime)s - %(levelname)s - %(message)s',  # Formato das mensagens de log
     handlers=[
-        logging.FileHandler("log.txt", encoding='utf-8'),  # Log para o arquivo
+        logging.FileHandler("logUS.txt", encoding='utf-8'),  # Log para o arquivo
         logging.StreamHandler()  # Log para o console
     ]
 )
