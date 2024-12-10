@@ -138,8 +138,8 @@ async def main():
     parameters = "lang:pt"
 
     # Definir o intervalo de datas (pode ser ajustado conforme necessário)
-    start_date_sp = saopaulo_tz.localize(datetime(2024, 10, 20, 0, 0, 0))
-    end_date_sp = saopaulo_tz.localize(datetime(2024, 10, 27, 8, 0, 0))
+    start_date_sp = saopaulo_tz.localize(datetime(2024, 10, 24, 0, 0, 0))
+    end_date_sp = saopaulo_tz.localize(datetime(2024, 11, 4, 23, 59, 0))
 
     # Ler o arquivo CSV
     try:
